@@ -17,7 +17,7 @@ export const Footer = ({ addOrRemoveFevourite }) => {
             </li>
           </ul>
         </nav>
-        <p>Copyright Alkemy Challenge</p>
+        <p>Copyright </p>
       </div>
     </>
   );

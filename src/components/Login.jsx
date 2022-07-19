@@ -88,7 +88,6 @@ export const Login = () => {
         </label>
         <br />
         <button className=" btn btn-primary mt-2" type="submit">
-          {" "}
           Ingresar
         </button>
       </form>

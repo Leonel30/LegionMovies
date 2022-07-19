@@ -1,0 +1,41 @@
+body {
+  
+}
+.main-header {
+    color: #fff;
+    height:40px;
+    background-color: dodgerblue;
+    display:flex;
+    position:fixed;
+    width: auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content:center;
+}
+.logo-container {
+    width: 15px;
+    height:15px;
+    background: #ffff;
+    border-radius: 7.5px;
+    margin-bottom: 0;
+}
+.logo-container img {
+    width: 15px;
+    border-radius: 15px;
+}
+.main-navigation {
+    width:100%;
+    display:flex;
+    gap:30px;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+}
+.main-navigation > li > a {
+    color: #ffff;
+    text-decoration: none;
+}
+.main-navigation > li > a:hover {
+    font-weight: 900;
+    
+}

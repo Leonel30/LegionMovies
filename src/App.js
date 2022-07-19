@@ -9,6 +9,8 @@ import {Results} from './components/Results'
 import { Favoritos } from './components/Favoritos'
 import { useState, useEffect } from 'react'
 
+
+
 export const App = () => {
   const [favorites, setFavorites] = useState([])
 
@@ -60,7 +62,6 @@ export const App = () => {
       <div className="container mt-3">
         <Routes>
           <Route path='/' element={<Login/>}/>
-          {/* <Route path='/listado' element={<Listado/>} /> */}
           <Route path='/listado' element={<Listado addOrRemoveFevourite={addOrRemoveFevourite} />} />
           <Route path='/moviedetail' element={<MovieDetail/>} />
           <Route path='/resultados' element={<Results {...addOrRemoveFevourite}/>} />

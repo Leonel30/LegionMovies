@@ -15,7 +15,7 @@ export const Listado = ({ addOrRemoveFevourite }) => {
       .then((res) => {
         const apiData = res.data.results;
         setMoviesList(apiData);
-      })
+      }) 
       .catch((error) => {
         swal({
           title: "Error!!",
@@ -32,13 +32,14 @@ export const Listado = ({ addOrRemoveFevourite }) => {
     <>
       {!token && <Navigate to="/" replace={true} />}
       <div className="row">
+        
         {moviesList.map((oneMovies, idx) => {
           return (
             <div className="col-3" key={idx}>
               <div className="card mt-4">
                 <img
                   src={`https://image.tmdb.org/t/p/w500${oneMovies.poster_path}`}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Movie"
                 />
                 <button

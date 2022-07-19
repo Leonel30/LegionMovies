@@ -16,7 +16,7 @@ export const Favoritos = ({ favorites, addOrRemoveFevourite }) => {
               <div className="card mt-4">
                 <img
                   src={`https://image.tmdb.org/t/p/w500${oneMovies.imgURL}`}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Movie"
                 />
                 <button
